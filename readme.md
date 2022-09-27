@@ -1,7 +1,7 @@
 # Employee Attrition EDA & Machine learning Modeling in Healthcare Company 
 
-  I. Business Understanding and Research Objective 
-  I.1. Background
+  ##I. Business Understanding and Research Objective 
+  ###I.1. Background
   
     Attrition is a condition or state where employee leave company because of several reason and can be categorized into two types: 
     1. Non-Voluntary Attrition: Employee leaves company but it doesn’t come from him.
@@ -23,13 +23,13 @@
     2. High work hours and experience high burnout
     3. Impact quality of care and the speed to care are often negatively impacted
     
-  I.2. Project Scope
+  ###I.2. Project Scope
   
     1. Dataset used is a dataset from Kaggle which provides employee attrition data for healthcare companies with 1600 datas
     2. Project conducted for my learning purposes as an aspiring  data scientist, if you find any misleading information, 
     don’t hesitate to contact me, we are going to focus on voluntary attrition since data gives more variable from employe perspective
 
-  I.3. As-is condition and Research Goals 
+  ###I.3. As-is condition and Research Goals 
   
     Currently, there are lot of datas that tells about the importance of attrition, however there are still lack information 
     about main factors from employee to leave their companies along with model to predict attrition in companies, based on background, project scopes, and as-is condition, we can define the research goals as: 
@@ -37,14 +37,14 @@
     2. Giving Recommendation to prevent voluntary employee attrition
     3. Develop a machine learning model to predict voluntary employee attrition
   
-II. CRISP DM Model Development including EDA
+##II. CRISP DM Model Development including EDA
     1. Data Understanding and Data Cleansing
     2. Exploratory Data Analysis
     3. Data Preprocessing
     4. Modelling
     5. Evaluation
     
-  II.1. Exploratory Data Analysis Insight
+ ###II.1. Exploratory Data Analysis Insight
     1. The number of attritions in this healthcare industry is still quite low (11.9%) of all data.
     2. Employees who  experience attrition have a younger average age of 29 years and those who survive at 36 years,
     indicating that they still want to seek some career opportunity
@@ -58,15 +58,15 @@ II. CRISP DM Model Development including EDA
     10. People with average work shift below 2 have a tendency to leave their company
     11. An unmarried person has a bigger tendency (25%) to leave the company
 
-III. Summary and Recommendation
+##III. Summary and Recommendation
 
-  III.1. Summary
+  ###III.1. Summary
   
     1. Based on feature importances and EDA there are several factor that give big impact to Employee Attrition at Hospital you can refer EDA and Feature Importance Analysis
     2. Recommendation already given in Recommendation section based on EDA and Feature Importance Analysis
     3. Model already develop using Random Forest Regressor with HP tuning by Accuracy around 95%
     
-  III.2. Recommendation
+  ###III.2. Recommendation
   
     1. Employee with younger age should be given several method to keep them stay at this company, 
     such as: Job enlargement, Job Enrichment, Job Involvement, using Mentor and Buddies system to make them can explore more opportunity jobs at your company.
