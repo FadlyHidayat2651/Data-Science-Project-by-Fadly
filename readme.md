@@ -38,6 +38,7 @@
     3. Develop a machine learning model to predict voluntary employee attrition
   
 ## II. CRISP DM Model Development including EDA
+    Process conduct by using CRISP DM model wiht several steps, which are:
     1. Data Understanding and Data Cleansing
     2. Exploratory Data Analysis
     3. Data Preprocessing
